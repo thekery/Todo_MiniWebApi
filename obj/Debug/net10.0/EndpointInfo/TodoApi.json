@@ -13,27 +13,17 @@
     "/todoitems": {
       "get": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Todo"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
       "post": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "requestBody": {
           "content": {
@@ -55,21 +45,11 @@
     "/todoitems/complete": {
       "get": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Todo"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -77,7 +57,7 @@
     "/todoitems/{id}": {
       "get": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "parameters": [
           {
@@ -102,7 +82,7 @@
       },
       "put": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "parameters": [
           {
@@ -137,7 +117,7 @@
       },
       "patch": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "parameters": [
           {
@@ -172,7 +152,7 @@
       },
       "delete": {
         "tags": [
-          "TodoApi"
+          "Program"
         ],
         "parameters": [
           {
@@ -248,7 +228,7 @@
   },
   "tags": [
     {
-      "name": "TodoApi"
+      "name": "Program"
     }
   ]
 }
